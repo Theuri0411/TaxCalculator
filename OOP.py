@@ -11,5 +11,8 @@ class Person:
 Floyd = Person("Floyd", 15, 36000)
 Jeff = Person("Jeff", 22, 80000)
 
+Jeff.name = "Eminem"
+Floyd.age = 1000
 Floyd.the_person()
 Jeff.the_person()
+
