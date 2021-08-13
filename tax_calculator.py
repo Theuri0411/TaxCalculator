@@ -7,10 +7,7 @@ def cal_tax(gross_pay, tax):
 def total_calc_tax(gross_pay, age):
     if 0 < age <= 45:
         return cal_tax(gross_pay, 9)
-    elif 46 <= age <= 65:
+    elif 45 <= age <= 65:
         return cal_tax(gross_pay, 5)
     else:
         return cal_tax(gross_pay, 3)
-
-
-print(total_calc_tax())

@@ -1,10 +1,4 @@
-# #
-# #
-# #
-# #
-# #
-# #
-# #
+
 # #TaxCalculator
 #
 # gross_salary = 40000
@@ -57,15 +51,15 @@
 #         print("F")
 #     else:
 #         print("FAIL")
-import time
-import os
-import sys
-import math
-##from colorama import Fore, Back, Style
-from datetime import datetime
-from datetime import timedelta
-
-
+# import time
+# import os
+# import sys
+# import math
+# ##from colorama import Fore, Back, Style
+# from datetime import datetime
+# from datetime import timedelta
+#
+#
 # challengetime = int(input("ENTER EXPECTED CODING TIME IN HOURS : "))
 # if challengetime < 0 or challengetime == 0:
 # 	print("BE REALISTIC MAN ...")
@@ -96,7 +90,7 @@ from datetime import timedelta
 # 			counter = counter + 1
 # 			time.sleep(1)
 # 			os.system('clear')
-
+#
 
 # while True:
 #     age = (input("age: "))
