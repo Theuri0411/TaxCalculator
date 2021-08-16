@@ -14,12 +14,12 @@ def all_people():
         print("No Workers")
 
 
-while counter < 3:
+while counter < 1:
     try:
-        name = str(input("Enter your name: \n"))
+        name = str(input("Enter your name: "))
         try:
-            age = int(input("Enter your age: \n"))
-            gross_pay = int(input("Enter your pay: \n"))
+            age = int(input("Enter your age: "))
+            gross_pay = int(input("Enter your pay: "))
             person = pc.Person(
                 name,
                 age,
