@@ -14,7 +14,7 @@ def all_people():
         print("No Workers")
 
 
-while counter < 2:
+while counter < 3:
     try:
         name = str(input("Enter your name: \n"))
         try:
